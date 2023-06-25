@@ -14,4 +14,14 @@ userId = "ram";
 let isLoggedIn: boolean = false;
 // isLoggedIn.
 
+// any
+let hero: string;
+
+function getHero() {
+  //   return 'arjun';
+  return true;
+}
+
+hero = getHero();
+
 export {};
