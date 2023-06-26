@@ -28,16 +28,46 @@
 
 // TYPE ALIASES
 
+// type User = {
+//   name: string;
+//   email: string;
+//   isActive: boolean;
+// };
+
+// function createUser(user: User): User {
+//   return { name: "", email: "", isActive: true };
+// }
+
+// createUser({ name: "", email: "", isActive: true });
+
+// ******* readonly, ? (optional), type with combination of other types *******
 type User = {
+  readonly _id: string;
   name: string;
   email: string;
   isActive: boolean;
+  credcardDetails?: number;
 };
 
-function createUser(user: User): User {
-  return { name: "", email: "", isActive: true };
-}
+let myUser: User = {
+  _id: "1234",
+  name: "ram",
+  email: "ram@email.com",
+  isActive: false,
+};
 
-createUser({ name: "", email: "", isActive: true });
+myUser.email = "raghav@email.com";
+// myUser._id = "ruweou";
+
+// combining types
+type cardNumber = {
+  cardnumber: string;
+};
+
+type cardDate = {
+  carddate: string;
+};
+
+type cardDetails = cardNumber & cardDate & { cvv: number };
 
 export {};
