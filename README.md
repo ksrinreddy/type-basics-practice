@@ -8,12 +8,34 @@ get familiar with what is typescript, what does it do, how it helps writing prec
 
 # basics
 
-## variable types
+## type aliases
+
+defining type alises for different properties, ex: user (who can have different parameters, all will be embodied in one user type)
 
 ## defining and working with functions
 
-## defining and working with objects, its odd behavior
+defininig functions, defining input parameter types, defining function return type
+
+## defining and working with objects, its odd behaviour
+
+defining objects, passing parameters, object methods implications, odd behaviour
 
 ## defining and wroking with arrays
 
+defining arrays, multiple ways, be aware of array methods implications
+
 ## working with union (of types)
+
+combination of types to work around with multiple input or return types of a function or so..
+
+## get familiar with tuples
+
+array of types/values 'in specific order'. accepts strictly in the specific order
+
+## get familiar with enums (enumarables)
+
+restrict user's choices to particular choices by defining enums
+
+## get familiar with interface
+
+defining and working with interface, interface can consist both properties and methods, similarities and differences with type aliases
