@@ -43,3 +43,7 @@ defining and working with interface, interface can consist both properties and m
 # initialize tsconfig.json
 
 get familiar with initializing tsconfig file, setting up src (for writing code) and dist (for production) folders, setting up output directory, setting up tsc watch mode, initializing live server
+
+# get familiar with classes in typescript
+
+syntax, defining properties, setting property types, setting method types such as readonly, public, private, protected their access scope, working with get, set accessors,
