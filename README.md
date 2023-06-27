@@ -47,3 +47,7 @@ get familiar with initializing tsconfig file, setting up src (for writing code) 
 # get familiar with classes in typescript
 
 syntax, defining properties, setting property types, setting method types such as readonly, public, private, protected their access scope, working with get, set accessors,
+
+# class implements interface
+
+get familiar with class implementing interface
