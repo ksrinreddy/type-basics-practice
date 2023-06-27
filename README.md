@@ -51,3 +51,7 @@ syntax, defining properties, setting property types, setting method types such a
 # class implements interface
 
 get familiar with class implementing interface
+
+# get familiar with abstract class
+
+basics, comparison between class, abstract class and interface, use case
