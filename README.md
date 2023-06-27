@@ -39,3 +39,7 @@ restrict user's choices to particular choices by defining enums
 ## get familiar with interface
 
 defining and working with interface, interface can consist both properties and methods, similarities and differences with type aliases
+
+# initialize tsconfig.json
+
+get familiar with initializing tsconfig file, setting up src (for writing code) and dist (for production) folders, setting up output directory, setting up tsc watch mode, initializing live server
