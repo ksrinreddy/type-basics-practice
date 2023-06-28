@@ -59,3 +59,7 @@ basics, comparison between class, abstract class and interface, use case
 # get familiar with generics
 
 basics, syntax, usage in functions, in arrow functions, classes in generics
+
+# get familiar with type narrowing
+
+basics, examples, typeof, in operator, instanceof, type predicates, discriminated unions, the never type, exhaustiveness checking
