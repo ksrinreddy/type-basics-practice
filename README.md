@@ -55,3 +55,7 @@ get familiar with class implementing interface
 # get familiar with abstract class
 
 basics, comparison between class, abstract class and interface, use case
+
+# get familiar with generics
+
+basics, syntax, usage in functions, in arrow functions, classes in generics
